@@ -152,14 +152,22 @@ int main4(void){
         return 0;
 }
 
+int main5(void) {
+    printf("Сейчас решение задачи 5 пусто :( ");
+}
+
+int main6(void) {
+    printf("Пожалуйста, посмотрите файлы 6.c, 61.c, 62.c");
+}
+
 int main(void){
     int N = 1;
-    int (*tasks[])(void) = {main1,main2,main3,main4};
+    int (*tasks[])(void) = {main1,main2,main3,main4,main5,main6};
     setlocale(LC_ALL,"Russian");
     srand(time(NULL));
     while (N){
         printf("\n\nПожалуйста, выберите номер задания (0 для выхода): "); scanf("%d",&N);
-        if (N<0 || N>4){
+        if (N<0 || N>6){
             printf("Некорректный номер задания");
             continue;
         }
