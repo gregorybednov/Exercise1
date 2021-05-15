@@ -153,7 +153,7 @@ int main4(void){
 }
 
 int main5(void) {
-    printf("Сейчас решение задачи 5 пусто :( ");
+    printf("Пожалуйста, посмотрите файл 5.c");
 }
 
 int main6(void) {
