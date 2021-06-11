@@ -1,0 +1,14 @@
+/usr/local/bin/ld: /tmp/ccHQlQFp.o: in function `scanPush':
+advanced2.c:(.text+0x18): undefined reference to `push'
+/usr/local/bin/ld: /tmp/ccHQlQFp.o: in function `sizePrint':
+advanced2.c:(.text+0x24): undefined reference to `size'
+/usr/local/bin/ld: /tmp/ccHQlQFp.o: in function `clearOk':
+advanced2.c:(.text+0x44): undefined reference to `clear'
+/usr/local/bin/ld: /tmp/ccHQlQFp.o: in function `clearBye':
+advanced2.c:(.text+0x64): undefined reference to `clear'
+/usr/local/bin/ld: /tmp/ccHQlQFp.o: in function `backPrint':
+advanced2.c:(.text+0x94): undefined reference to `back'
+/usr/local/bin/ld: /tmp/ccHQlQFp.o: in function `popPrint':
+advanced2.c:(.text+0xb4): undefined reference to `pop'
+collect2: error: ld returned 1 exit status
+make: *** [<builtin>: advanced2] Error 1
