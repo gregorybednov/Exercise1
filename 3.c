@@ -47,7 +47,7 @@ int main(void) {
 	srand(time(NULL));
 	fillArray(arr, MIN_VALUE, MAX_VALUE, SIZE);
 	m = minimumArray(arr, SIZE);
-	replaceInArrayByCondition(arr, SIZE, isPositive, m);
+	if (m<0) replaceInArrayByCondition(arr, SIZE, isPositive, -m);
 	printArray(arr, SIZE);
 	printf("\n");
 	return 0;
